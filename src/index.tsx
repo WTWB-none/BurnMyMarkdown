@@ -1,6 +1,6 @@
 /* @refresh reload */
 import { render } from "solid-js/web";
-import App from "./Terminal";
-import Term from "./Terminal";
+import Switcher from "./Switcher";
 
-render(() => <Term />, document.getElementById("root") as HTMLElement);
+
+render(() => <Switcher />, document.getElementById("root") as HTMLElement);
